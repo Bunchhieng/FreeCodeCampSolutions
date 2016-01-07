@@ -6,9 +6,7 @@ function titleCase(str) {
             str[i + 2] = str[i + 2].toUpperCase();
         }
     }
-
     str = str.join("");
     return str;
 }
-
 console.log(titleCase("I'm a little tea pot", ""));
